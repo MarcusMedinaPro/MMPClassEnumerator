@@ -1,4 +1,4 @@
-﻿namespace MMPEnumerator;
+﻿namespace MMPClassEnumerator;
 
 using System.Reflection;
 
@@ -38,7 +38,7 @@ public static class EnumerateClasses<T>
     /// Gets definitons of classes that match the given parent class
     /// </summary>
     /// <returns><seealso cref="IEnumerable"/> with types of the matching classes</returns>
-    public static IEnumerable<System.Type> ListClassesByInheritance ()
+    public static IEnumerable<Type> ListClassesByInheritance ()
     {
         // Inspired from https://stackoverflow.com/a/699871
         var instances = from t in Assembly.GetCallingAssembly().GetTypes()
@@ -53,7 +53,7 @@ public static class EnumerateClasses<T>
     /// Gets definitons of classes that match the given Interface
     /// </summary>
     /// <returns><seealso cref="IEnumerable"/> with types of the matching classes</returns>
-    public static IEnumerable<System.Type> ListClassesByInterface ()
+    public static IEnumerable<Type> ListClassesByInterface ()
     {
         // Inspired from https://stackoverflow.com/a/699871
         var instances = from t in Assembly.GetCallingAssembly().GetTypes()
