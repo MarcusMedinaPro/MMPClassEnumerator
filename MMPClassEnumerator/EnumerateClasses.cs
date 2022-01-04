@@ -4,7 +4,7 @@
 //  https://creativecommons.org/licenses/by-sa/4.0/
 // -----------------------------------------------------------------------------------------------
 
-namespace MMPClassEnumerator;
+namespace MarcusMedinaPro.ClassEnumerator;
 
 using System.Reflection;
 

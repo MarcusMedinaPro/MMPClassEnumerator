@@ -32,7 +32,7 @@ switch(choice())
 
 You can use the Nuget manager in visual studio or simply type
 ```
-install-package ClassEnumerator
+install-package MMPClassEnumerator
 ```
 
 ## Using the nuget
