@@ -1,4 +1,10 @@
-﻿namespace MMPClassEnumerator;
+﻿// -----------------------------------------------------------------------------------------------
+//  EnumerateClasses.cs by Marcus Medina, Copyright (C) 2021, http://MarcusMedina.Pro.
+//  Published under Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+//  https://creativecommons.org/licenses/by-sa/4.0/
+// -----------------------------------------------------------------------------------------------
+
+namespace MMPClassEnumerator;
 
 using System.Reflection;
 
