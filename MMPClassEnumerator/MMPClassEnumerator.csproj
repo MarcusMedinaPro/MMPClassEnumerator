@@ -1,16 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net6.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<AssemblyVersion>1.0.0.0</AssemblyVersion>
-		<FileVersion>1.0.0.0</FileVersion>
-		<Version>1.0.0.0</Version>
-		<FileVersion>1.0.0.0</FileVersion>
-		<InformationalVersion>0.0.0.0.myversion</InformationalVersion>
-		<PackageLicenseFile>.\MMPClassEnumerator\License.txt</PackageLicenseFile>
+		<PackageLicenseFile>.\MMPClassEnumerator\MMPClassEnumerator\License.txt</PackageLicenseFile>
 		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+		<TargetFramework>net6.0</TargetFramework>
+		<Version>1.0.0.0</Version>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
 	</PropertyGroup>
 
 </Project>
