@@ -1,8 +1,8 @@
 ﻿# ClassEnumerator
 
-This project is a small class with the only purpose to provide the coder with a list of classes implemmenting a specific interface. This is done by asking for classes that match a specific Interface or classes that inherit from a specific class. 
+This project is a small class with the only purpose to provide the coder with a list of classes implemmenting a specific interface. This is done by asking for classes that match a specific Interface or classes that inherit from a specific class.  The whole idea is to make it easier to use plugins or solutions of that kind.
 
-The main reason I made it a nuget was to show my students how to create and publis nugets.
+* The main reason I made it a nuget was to show my students how to create and publis nugets. *
 
 ## Getting Started
 
@@ -74,6 +74,12 @@ var input = Console.ReadLine();
 _ = int.TryParse(input, out var choice);
 
 ITopic topic=MyStuff[choice];
+```
+
+Other example, to list all classes in a project
+```
+var lst = EnumerateClasses<object>.GetClassesByInheritance().ToList();
+lst.ForEach(i => Console.WriteLine(" class " + i.GetType().Name + "()"));
 ```
 
 ## Deployment
