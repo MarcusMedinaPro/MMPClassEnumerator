@@ -102,6 +102,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 * Original code: https://stackoverflow.com/a/699871
 * Template for Readme file is from https://gist.github.com/PurpleBooth
+* Icon from https://iconarchive.com/show/ios7-icons-by-icons8/Programming-Cls-icon.html
 
 ## Source code
 The source code for this project is available at https://github.com/MarcusMedinaPro/MMPClassEnumerator

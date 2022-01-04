@@ -5,6 +5,14 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMPClassEnumerator", "MMPClassEnumerator\MMPClassEnumerator.csproj", "{D5731473-D0B0-41FE-A3C9-1A7CE7D99597}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{177FBBB0-0A8D-45E8-9738-6C602FB84019}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\Icons8-Ios7-Programming-Cls.ico = ..\..\..\Downloads\Icons8-Ios7-Programming-Cls.ico
+		MMPClassEnumerator\Icons8-Ios7-Programming-Cls.ico = MMPClassEnumerator\Icons8-Ios7-Programming-Cls.ico
+		License.txt = License.txt
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

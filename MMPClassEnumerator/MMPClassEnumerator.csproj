@@ -5,8 +5,38 @@
 		<Nullable>enable</Nullable>
 		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
 		<TargetFramework>net6.0</TargetFramework>
-		<Version>1.0.0.2</Version>
-		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<Version>1.0.0.21</Version>
+		<AssemblyVersion>1.0.0.21</AssemblyVersion>
+		<Authors>Marcus Medina</Authors>
+		<Company>MarcusMedinaPro</Company>
+		<Description>Enumerate classes using a specific interface</Description>
+		<PackageProjectUrl>https://github.com/MarcusMedinaPro/MMPClassEnumerator/</PackageProjectUrl>
+		<PackageIcon>Programming-Cls-icon.png</PackageIcon>
+		<PackageReadmeFile>Readme.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/MarcusMedinaPro/MMPClassEnumerator/</RepositoryUrl>
+		<PackageTags>reflection;classes;interfaces;list</PackageTags>
+		<PackageLicenseFile>License.txt</PackageLicenseFile>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\Readme.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="Programming-Cls-icon.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="Programming-Cls-icon.ico">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
 
 </Project>
