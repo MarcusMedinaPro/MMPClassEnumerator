@@ -38,19 +38,19 @@ install-package MMPClassEmulator
 ## Using the nuget
 
 To get a list of instansiated classes that match your interface, you type
-```
+```cs
 var listOfStuff = EnumerateClasses<IStuff>.GetClassesByInterface();
 ```
 If you only want the name of the classes that match your interface, you type
-```
+```cs
 var listOfStuff = EnumerateClasses<IStuff>.ListClassesByInterface();
 ```
 To list the classes you could use
-```
+```cs
 ListOfStuff.ForEach(i => Console.WriteLine(i.Name));
 ```
 The nuget provides you with four methods
-```
+```cs
 // Gets instances of classes that match the given parent class
 GetClassesByInheritance()
 
@@ -64,7 +64,7 @@ ListClassesByInheritance()
 ListClassesByInterface ()
 ```
 ## Usage example
-```
+```cs
 var listOfStuff = EnumerateClasses<IStuff>.GetClassesByInterface();
 for(int i=0; i<MyStuff.Count; i++)
     Console.WriteLine($"{i:00} {MyStuff[i].Name}");```
@@ -85,10 +85,9 @@ The deployment to a nuget is triggered by scripts on GitHub after PR to the main
 * C#, .net 6 
   
 ## Contributing
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://gist.github.com/MarcusMedinaPro/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
-
 * **Marcus Medina** - *Initial project*
 
 ## License
