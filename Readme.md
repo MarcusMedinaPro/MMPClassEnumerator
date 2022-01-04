@@ -1,6 +1,6 @@
 ﻿# ClassEnumerator
 
-This project is a small class with the only purpose to provide the coder with a list of matching classes. This is done by asking for classes that match a specific Interface or classes that inherit from a specific class. 
+This project is a small class with the only purpose to provide the coder with a list of classes implemmenting a specific interface. This is done by asking for classes that match a specific Interface or classes that inherit from a specific class. 
 
 The main reason I made it a nuget was to show my students how to create and publis nugets.
 
@@ -84,17 +84,18 @@ The deployment to a nuget is triggered by scripts on GitHub after PR to the main
 
 * C#, .net 6 
   
-## Contributing
-Please read [CONTRIBUTING.md](https://gist.github.com/MarcusMedinaPro/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
 ## Authors
 * **Marcus Medina** - *Initial project*
 
 ## License
 Since I found the code on StackOverflow I am publishing this project according to the license they use.
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)  
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 ## Acknowledgments
 
 * Original code: https://stackoverflow.com/a/699871
 * Template for Readme file is from https://gist.github.com/PurpleBooth
+
+## Source code
+The source code for this project is available at https://github.com/MarcusMedinaPro/MMPClassEnumerator
