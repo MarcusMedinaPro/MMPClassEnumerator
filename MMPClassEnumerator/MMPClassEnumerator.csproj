@@ -12,10 +12,10 @@
 		<Description>Enumerate classes using a specific interface</Description>
 		<PackageProjectUrl>https://github.com/MarcusMedinaPro/MMPClassEnumeratorMMPClassEnumerator/</PackageProjectUrl>
 		<PackageIcon>Programming-Cls-icon.png</PackageIcon>
-		<PackageReadmeFile>Readme.md</PackageReadmeFile>
+		<PackageReadmeFile>../Readme.md</PackageReadmeFile>
 		<RepositoryUrl>https://github.com/MarcusMedinaPro/MMPClassEnumeratorMMPClassEnumerator/</RepositoryUrl>
 		<PackageTags>reflection;classes;interfaces;list;c#</PackageTags>
-		<PackageLicenseFile>License.txt</PackageLicenseFile>
+		<PackageLicenseFile>../License.txt</PackageLicenseFile>
 		<RootNamespace>MarcusMedinaPro.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
 		<ApplicationIcon>Icons8-Ios7-Programming-Cls.ico</ApplicationIcon>
 	</PropertyGroup>
