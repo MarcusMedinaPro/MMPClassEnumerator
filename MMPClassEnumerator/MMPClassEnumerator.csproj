@@ -1,20 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<Version>1.0.0.22</Version>
-		<ImplicitUsings>enable</ImplicitUsings>
-		<Nullable>enable</Nullable>
-		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
 		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<Version>1.0.0.22</Version>
+		<AssemblyVersion>1.0.0.22</AssemblyVersion>
+
 		<Authors>Marcus Medina</Authors>
 		<Company>MarcusMedinaPro</Company>
 		<Description>Enumerate classes using a specific interface</Description>
 		<PackageProjectUrl>https://github.com/MarcusMedinaPro/MMPClassEnumerator/</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/MarcusMedinaPro/MMPClassEnumerator/</RepositoryUrl>
-		<PackageTags>reflection;classes;interfaces;list;c#</PackageTags>
 		<RootNamespace>MarcusMedinaPro.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+		<PackageTags>reflection;classes;interfaces;list;c#</PackageTags>
+
 		<ApplicationIcon>Icons8-Ios7-Programming-Cls.ico</ApplicationIcon>
 		<PackageIcon>Programming-Cls-icon.png</PackageIcon>
+		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
 	</PropertyGroup>
 
 	<ItemGroup>
