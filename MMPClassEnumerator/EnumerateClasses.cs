@@ -52,7 +52,7 @@ public static class EnumerateClasses<T>
                                  && t.GetConstructor(Type.EmptyTypes) != null
                         select t ?? default;
 
-        return instances.ToList();
+        return instances;
     }
 
     /// <summary>
@@ -67,7 +67,7 @@ public static class EnumerateClasses<T>
                                  && t.GetConstructor(Type.EmptyTypes) != null
                         select t ?? default;
 
-        return instances.ToList();
+        return instances;
     }
 
     #endregion Public Methods

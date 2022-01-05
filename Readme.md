@@ -52,16 +52,16 @@ ListOfStuff.ForEach(i => Console.WriteLine(i.Name));
 The nuget provides you with four methods
 ```cs
 // Gets instances of classes that match the given parent class
-GetClassesByInheritance()
+GetClassesByInheritance<T>()
 
 // Gets instances of classes that match the given Interface
-GetClassesByInterface()
+GetClassesByInterface<T>()
 
 // Gets definitons of classes that match the given parent class
-ListClassesByInheritance()
+ListClassesByInheritance<T>()
 
 // Gets definitons of classes that match the given Interface
-ListClassesByInterface ()
+ListClassesByInterface<T>()
 ```
 ## Usage example
 ```cs
@@ -77,7 +77,7 @@ ITopic topic=MyStuff[choice];
 ```
 
 Other example, to list all classes in a project
-```
+```cs
 var lst = EnumerateClasses<object>.GetClassesByInheritance().ToList();
 lst.ForEach(i => Console.WriteLine(" class " + i.GetType().Name + "()"));
 ```
@@ -94,13 +94,12 @@ The deployment to a nuget is triggered by scripts on GitHub after PR to the main
 * **Marcus Medina** - *Initial project*
 
 ## License
-Since I found the code on StackOverflow I am publishing this project according to the license they use.
+Since I found the reflection-Linq-code on [StackOverflow](https://stackoverflow.com/a/699871) I am publishing this project according to the license they use.
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)  
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 ## Acknowledgments
 
-* Original code: https://stackoverflow.com/a/699871
+* Inspiration code: https://stackoverflow.com/a/699871
 * Template for Readme file is from https://gist.github.com/PurpleBooth
 * Icon from https://iconarchive.com/show/ios7-icons-by-icons8/Programming-Cls-icon.html
 
