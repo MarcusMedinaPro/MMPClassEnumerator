@@ -8,6 +8,10 @@ namespace MarcusMedinaPro.ClassEnumerator;
 
 using System.Reflection;
 
+/// <summary>
+/// The worker class that generates the lists
+/// </summary>
+/// <typeparam name="T"></typeparam>
 public static class EnumerateClasses<T>
 {
     #region Public Methods
@@ -23,7 +27,7 @@ public static class EnumerateClasses<T>
                         where t.BaseType == typeof(T) && t.GetConstructor(Type.EmptyTypes) != null
                         select Activator.CreateInstance(t) ?? default;
 
-        return instances.Cast<T>();
+        return instances.Cast<T>().OrderBy(n=>n.GetType().Name);
     }
 
     /// <summary>
@@ -37,7 +41,7 @@ public static class EnumerateClasses<T>
                         where t.GetInterfaces().Contains(typeof(T)) && t.GetConstructor(Type.EmptyTypes) != null
                         select Activator.CreateInstance(t) ?? default;
 
-        return instances.Cast<T>();
+        return instances.Cast<T>().OrderBy(n => n.GetType().Name);
     }
 
     /// <summary>
@@ -52,7 +56,7 @@ public static class EnumerateClasses<T>
                                  && t.GetConstructor(Type.EmptyTypes) != null
                         select t ?? default;
 
-        return instances;
+        return instances.OrderBy(n => n.GetType().Name);
     }
 
     /// <summary>
@@ -67,7 +71,7 @@ public static class EnumerateClasses<T>
                                  && t.GetConstructor(Type.EmptyTypes) != null
                         select t ?? default;
 
-        return instances;
+        return instances.OrderBy(n => n.GetType().Name);
     }
 
     #endregion Public Methods
